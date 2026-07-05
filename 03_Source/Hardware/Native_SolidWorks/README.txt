@@ -1,1 +1,0 @@
-File Solidworks chỉ mở được với phần mềm Solidworks phiên bản từ 2021 trở lên
