@@ -1,0 +1,42 @@
+# --- Bỏ qua các thư mục chứa sản phẩm Build ---
+**/Debug/
+**/Release/
+**/LNK_Debug/
+**/LNK_Release/
+**/isk/
+
+# Chặn các file header tạm có mã băm của TI
+*.h.*
+**/src/sysbios/
+**/src/configPkg/
+
+# --- Bỏ qua các file rác sinh ra trong quá trình biên dịch ---
+*.obj
+*.d
+*.mk
+*.inc
+*.ninc
+*.libs
+*.log
+*.bak
+*.cmd
+*.out
+*.map
+*.rprc
+*.xe674
+*.xer4f
+*.bin
+*.tmp
+
+# --- Bỏ qua cấu hình riêng của IDE (Không bắt buộc nhưng nên bỏ) ---
+.launches/
+.settings/
+.theia/
+.vscode/
+
+
+# --- CHỈ GIỮ LẠI ---
+# Các file code: .c, .h, .cpp, .asm
+# File cấu hình dự án: .project, .cproject, .ccxml (mạch nạp)
+# File cấu hình RTOS: .cfg
+
